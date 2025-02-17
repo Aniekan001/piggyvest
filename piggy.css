@@ -1,0 +1,1641 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F2F7F8;
+}
+header{
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+header>img{
+    display: none;
+}
+.firstdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 53%;
+}
+.firstdiv>img{
+    width: 30%;
+}
+nav{
+    font-weight: 550;
+    font-size: 18px;
+    color: #667582;
+}
+nav:hover{
+    cursor: pointer;
+}
+.seconddiv{
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+}
+.header_button{
+    padding: 6% 7%;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 9px;
+}
+.header_button:hover{
+    cursor: pointer;
+}
+.signin_button{
+    background-color: #F2F7F8;
+    color: #122231;
+    border: 1px solid #122231;
+}
+.create_button{
+    background-color: #122231;
+    color: white;
+    border: none;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.thirddiv{
+    width: 45%;
+    margin-top: 10%;
+}
+.thirddiv>button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0089FF;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+}
+.thirddiv>button:hover{
+    background-color: #060F21;
+}
+.yellowicon{
+    animation: spin 3s linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.straight:hover{
+    display: none;
+}
+.thirddiv>button p{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+h1{
+    color: #122231;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    width: 80%;
+}
+.thirddiv>p{
+    color: #3D4F60;
+    width: 75%;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.fourthdiv{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+.fourthdiv>button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 9px;
+    background-color: #122231;
+    color: white;
+    border: none;
+}
+.fourthdiv>button:hover{
+    background-color: #000000;
+    transform: translateY(-5px);
+}
+.get_on{
+    margin-left: 5px;
+}
+.fifthdiv{
+    width: 45%;
+    position: relative;
+}
+.womandiv{
+    width: 100%;
+}
+.topleft{
+    position: absolute;
+    top: 15%;
+    left: -10%;
+    width: 250px;
+    height: 75px;
+}
+.middleleft{
+    position: absolute;
+    left: -10%;
+    top: 50%;
+    width: 220px;
+    height: 75px;
+}
+.bottomleft{
+    position: absolute;
+    left: -10%;
+    bottom: 10%;
+    width: 190px;
+    height: 75px;
+}
+.topright{
+    position: absolute;
+    right: -8%;
+    top: 10%;
+    width: 250px;
+    height: 85px;
+}
+.middleright{
+    position: absolute;
+    top: 55%;
+    right: -5%;
+    height: 75px;
+    width: 220px;
+}
+.bottomright{
+    position: absolute;
+    bottom: -5%;
+    right: -5%;
+    width: 220px;
+    height: 75px;
+}
+.secondsection{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 57%;
+    margin-left: 5%;
+}
+.secondsection>img{
+    width: 13%;
+}
+.secondsection h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.sixthdiv{
+    width: 80%;
+}
+.sixthdiv>p{
+    font-size: 18px;
+    color: #667582;
+}
+.sixthdiv>button{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    border: none;
+    background-color: #F2F7F8;
+    margin-top: 10px;
+}
+.sixthdiv a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.sixthdiv a:hover{
+    text-decoration: underline 5px #ABB7CA;
+}
+.thirdsection{
+    margin-bottom: 2%;
+}
+.thirdsection h2, .fourthsection h2{
+    font-size: 45px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    color: #122231;
+}
+.thirdsection p, .seventhdiv p{
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    color: #122231;
+}
+.gridsection{
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-bottom: 6%;
+}
+.griddiv{
+    background-color: white;
+    width: 49%;
+    padding: 5% 2%;
+    border-radius: 20px;
+}
+.griddiv:hover{
+    cursor: pointer;
+    transition: ease-in-out 0.8s;
+}
+.griddiv>h3{
+    font-size: 33px;
+}
+.griddiv>p{
+    margin-top: 12px;
+    margin-bottom: 40%;
+    font-size: 20px;
+}
+.griddiv>button{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    font-size: 16px;
+}
+.griddiv a:hover{
+    text-decoration: underline 5px #ABB7CA;
+}
+.firstgrid h3, .firstgrid a{
+    color: #003399;
+}
+.firstgrid:hover{
+    color: white;
+    background-color: #0F60D6;
+    background-image: url(./PiggyVest_img_folder/dark\ blue\ backimage.png);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: bottom right;}    
+.secondgrid h3, .secondgrid a{
+    color: #2295F2;
+}
+.secondgrid:hover{
+    color: white;
+    background-color: #2295F2;
+    background-repeat: no-repeat;
+    background-image: url(./PiggyVest_img_folder/light\ blue\ backimage.png);
+    background-size: 50% 50%;
+    background-position: bottom right;
+}
+.thirdgrid h3, .thirdgrid a{
+    color: #39C277;
+}
+.thirdgrid:hover{
+    color: white;
+    background-repeat: no-repeat;
+    background-color: #39C277;
+    background-image: url(./PiggyVest_img_folder/green\ backimage.avif);
+    background-size: 50% 50%;
+    background-position: bottom right;
+}
+.fourthgrid h3, .fourthgrid a{
+    color: #E5489B;
+}
+.fourthgrid:hover{
+    color: white;
+    background-repeat: no-repeat;
+    background-color: #E5489B;
+    background-image: url(./PiggyVest_img_folder/pink\ backimage.avif);
+    background-size: 50% 50%;
+    background-position: bottom right;
+}
+.fifthgrid h3, .fifthgrid a{
+    color: #0C1825;
+}
+.fifthgrid:hover{
+    color: white;
+    background-repeat: no-repeat;
+    background-color: #0C1825;
+    background-image: url(./PiggyVest_img_folder/navyblue\ backimage.avif);
+    background-size: 50% 50%;
+    background-position: bottom right;
+}
+.sixthgrid h3, .sixthgrid a{
+    color: #FF783C;
+}
+.sixthgrid:hover{
+    color: white;
+    background-repeat: no-repeat;
+    background-color: #FF783C;
+    background-image: url(./PiggyVest_img_folder/orange\ backimage.png);
+    background-size: 50% 50%;
+    background-position: bottom right;
+}
+.griddiv:hover h3{
+    color: white;
+}
+.griddiv:hover a{
+    color: white;
+}
+.griddiv:hover button{
+    color: white;
+    text-decoration: underline white;
+}
+.griddiv a{
+    text-decoration: none;
+}
+.fourthsection{
+    background-color: white;
+    padding: 12% 0;
+}
+.seventhdiv p{
+    margin-bottom: 70px;
+}
+.eightdiv{
+    background-color: #7913E5;
+    padding: 5% 5% 2%;
+    width: 85%;
+    margin: auto;
+    border-radius: 40px;
+    color: white;
+    background-image: url(./PiggyVest_img_folder/purple\ div.avif);
+    background-position: 90% bottom;
+    background-size: 40% 85%;
+    background-repeat: no-repeat;
+}
+.eightdiv button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 21%;
+}
+.eightdiv h4{
+    font-size: 36px;
+}
+.eightdiv p{
+    font-size: 22px;
+    margin-top: 3%;
+    margin-bottom: 14%;
+    width: 28%;
+}
+.eightdiv a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+.eightdiv a:hover{
+    text-decoration: underline 5px #ABB7CA;
+}
+.fifthsection{
+    padding: 15% 10%;
+}
+.fifthsection h2{
+    font-size: 48px;
+    color: rgb(18, 34, 49);
+    text-align: center;
+    margin: auto;
+}
+.fifthsection>p{
+    font-size: 24px;
+    color: rgb(61, 79, 96);
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 73px;
+}
+.fifthsection>img{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25%;
+}
+.ninthdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ninthdiv>img{
+    width: 40%;
+}
+.tenthdiv{
+    width: 45%;
+}
+.tenthdiv h5{
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+.tenthdiv div{
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tenthdiv div>button{
+    width: 45%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #BBBBBB;
+    border-radius: 10px;
+}
+.tenthdiv div>button:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.sixthsection{
+    background-color: white;
+    padding: 3% 7%;
+}
+.sixthsection h5{
+    color: #122231;
+    font-size: 33px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.sixthsection>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sixthsection>div img{
+    width: 14%;
+}
+.ciologo{
+    height: 50px;
+}
+footer{
+    background-color: white;
+    padding: 10% 5% 8%;
+}
+.sevethsection{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DCDCDC;
+    padding-bottom: 3%;
+    color: #3D4F60;
+}
+.eleventhdiv{
+    width: 22%;
+}
+.eleventhdiv img{
+    width: 60%;
+    margin: 0 20% 20px;
+}
+#compliance{
+    width: 35%;
+    margin: 0 32.5%;
+}
+.linkdiv{
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.linkdiv a, .linkdiv p{
+    margin-bottom: 10px;
+    color: #3D4F60;
+}
+.contactdiv{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.contactlogodiv{
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.contactlogodiv img{
+    margin-left: 20px;
+}
+.contactlogodiv img:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+.contactdiv p{
+    text-align: right;
+}
+.contactdiv p:hover{
+    cursor: pointer;
+}
+.contactdiv a{
+    text-decoration: none;
+    color: #3D4F60;
+    margin: 15px 0;
+}
+.contactdiv a:hover, .phoneno:hover{
+    color: #122231;
+    cursor: pointer;
+}
+.eightsection{
+    padding-top: 3%;
+    color: #3D4F60;
+    width: 55%;
+    font-size: 13px;
+}
+.footermiddlepara{
+    margin: 40px 0 20px;
+}
+.footerlastpara{
+    color: #6486B9;
+    font-weight: 500;
+}
+
+@media (max-width: 1300px) {
+    .seconddiv{
+        width: 26%;
+    }
+}
+@media (max-width: 1170px) {
+    .seconddiv{
+        width: 30%;
+    }
+    .topleft{
+        width: 200px;
+        height: 68px;
+    }
+    .middleleft{
+        width: 150px;
+        height: 60px;
+    }
+    .bottomleft{
+        width: 160px;
+        height: 67px;
+    }
+    .topright{
+        width: 180px;
+        height: 75px;
+    }
+    .middleright{
+        height: 65px;
+        width: 170px;
+    }
+    .bottomright{
+        width: 150px;
+        height: 60px;
+    }
+    .eightdiv p{
+        width: 35%;
+    }
+}
+@media (max-width: 1085px){
+    .eightsection{
+        width: 58%;
+        font-size: 16px;
+    }
+    .bottomright{
+        bottom: 10%;
+    }
+    .middleright{
+        top: 45%;
+    }
+    .topleft{
+        top: 10%;
+    }
+    .middleleft{
+        top: 40%;
+    }
+    h1{
+        font-size: 45px;
+    }
+}
+@media (max-width: 1033px){
+    .seconddiv{
+        width: 30%;
+    }
+    .fourthdiv{
+        width: 80%;
+    }
+    .tenthdiv div{
+        width: 70%;
+    }
+}
+@media (max-width: 999px){
+    .seconddiv{
+        width: 29%;
+    }
+    .header_button{
+        padding: 4% 7%;
+        font-weight: 450;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+}
+@media (max-width: 976px){
+    .middleleft{
+        left: -18%;
+        top: 35%;
+        width: 220px;
+        height: 75px;
+    }
+    .bottomleft{
+        bottom: 18%;
+    }
+    .topright{
+        right: -10%;
+        top: 6%;
+        width: 200px;
+        height: 75px;
+    }
+    .middleright{
+        top: 39%;
+        height: 63px;
+        width: 200px;
+    }
+    .bottomright{
+        bottom: 15%;
+        right: -7%;
+        width: 180px;
+        height: 65px;
+    }
+}
+@media (max-width:970px){
+    .fourthdiv{
+        width: 73%;
+    }
+    .fourthdiv>button{
+        font-weight: 500;
+        font-size: 13px;
+    }
+}
+@media (max-width: 934px){
+    .topleft{
+        top: 9%;
+        left: -10%;
+        width: 150px;
+        height: 55px;
+    }
+    .middleleft{
+        left: -10%;
+        top: 32%;
+        width: 150px;
+        height: 52px;
+    }
+    .bottomleft{
+        bottom: 30%;
+        left: -10%;
+        height: 50px;
+    }
+    .topright{
+        right: -11%;
+        width: 150px;
+        height: 58px;
+    }
+    .middleright{
+        right: -8%;
+        top: 35%;
+        height: 53px;
+        width: 170px;
+    }
+    .bottomright{
+        bottom: 21%;
+        right: -7%;
+        width: 150px;
+        height: 52px;
+    }
+    .thirddiv>button p{
+        font-weight: 550;
+        font-size: 16px;
+    }
+    .thirdsection{
+        margin-bottom: 4%;
+    }
+    .sixthdiv>button{
+        width: 58%;
+    }
+}
+@media (max-width: 911px){
+    h1{
+        font-size: 40px;
+    }
+    .seconddiv{
+        width: 31%;
+    }
+    .fourthdiv{
+        width: 76%;
+    }
+    .eightdiv h4{
+        font-size: 32px;
+    }
+    .eightdiv p{
+        width: 40%;
+    }
+}
+@media (max-width: 900px){
+    .firstdiv{
+        width: 58%;
+    }
+    .thirddiv>p{
+        font-size: 20px;
+    }
+    .sixthdiv{
+        width: 84%;
+    }
+}
+@media(max-width: 872px){
+    .thirddiv>button p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 869px){
+    .thirddiv>p{
+        width: 80%;
+    }
+}
+@media(max-width:865px){
+    .fourthdiv{
+        width: 80%;
+    }
+    .seconddiv{
+        width: 29%;
+    }
+    .header_button{
+        font-size: 12px;
+        border-radius: 6px;
+    }
+    .firstdiv{
+        width: 63%;
+    }
+}
+@media(max-width:817px){
+    .fourthdiv{
+        width: 84%;
+    }
+}
+@media(max-width:795px){
+    .eightdiv h4{
+        font-size: 29px;
+    }
+    .eightdiv p{
+        width: 44%;
+        font-size: 19px;
+    }
+}
+@media(max-width:789px){
+    .thirddiv>button p{
+        font-size: 13px;
+    }
+}
+@media(max-width:778px){
+    .fourthdiv{
+        width: 90%;
+    }
+    .bottomright{
+        bottom: 29%;
+    }
+}
+@media(max-width:771px){
+    header>img{
+        display: flex;
+        width: 4%;
+    }
+    .seconddiv{
+        display: none;
+    }
+    header nav{
+        display: none;
+    }
+    .firstsection{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }
+    .thirddiv{
+        margin-bottom: 10%;
+    }
+    .thirddiv>button{
+        width: 90%;
+    }
+    .thirddiv>button p{
+        font-size: 13px;
+    }
+    h1{
+        font-size: 35px;
+        width: 90%;
+        text-align: center;
+    }
+    .thirddiv>p{
+        width: 95%;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .fourthdiv{
+        width: 92%;
+    }
+    .fourthdiv>button{
+        padding: 4% 7%;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .topleft{
+        left: -20%;
+    }
+    .middleleft{
+        left: -20%;
+        top: 41%;
+        width: 150px;
+        height: 55px;
+    }
+    .bottomleft{
+        left: -20%;
+        bottom: 10%;
+        width: 140px;
+        height: 55px;
+    }
+    .middleright{
+        top: 45%;
+        right: -15%;
+        height: 55px;
+        width: 150px;
+    }
+    .bottomright{
+        bottom: 0%;
+        right: -15%;
+        width: 140px;
+        height: 55px;
+    }
+    .secondsection{
+        margin: auto;
+        margin-top: 20%;
+        margin-bottom: 15%;
+        flex-direction: column;
+        align-items: center;
+        width: 72%;
+    }
+    .secondsection h3{
+        font-size: 24px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+    .sixthdiv>p{
+        font-size: 16px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .sixthdiv>button{
+        width: 49%;
+        font-size: 13px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .thirdsection h2, .fourthsection h2{
+        font-size: 37px;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+    .thirdsection p, .seventhdiv p{
+        font-size: 20px;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+    .gridsection{
+        margin: 3% auto;
+        width: 85%;
+    }
+    .griddiv>h3{
+        font-size: 27px;
+        text-align: center;
+    }
+    .griddiv>p{
+        font-size: 17.5px;
+        text-align: center;
+    }
+    .griddiv>button{
+        font-size: 14px;
+    }
+    .fourthsection{
+        padding: 13% 0 25%;
+    }
+    .fourthsection h2{
+        margin-bottom: 10px;
+    }
+    .seventhdiv p{
+        margin-bottom: 50px;
+    }
+    .eightdiv{
+        padding: 5% 5% 44%;
+        width: 85%;
+        background-position: 49% bottom;
+        background-size: 45% 61%;
+    }
+    .eightdiv button{
+        width: 38%;
+        margin: auto;
+    }
+    .eightdiv h4{
+        font-size: 33px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .eightdiv p{
+        font-size: 17px;
+        margin: auto;
+        margin-bottom: 4%;
+        width: 90%;
+        text-align: center;
+    }
+    .eightdiv a{
+        font-size: 15px;
+    }
+    .fifthsection{
+        padding: 15% 5% 10%;
+    }
+    .fifthsection h2{
+        font-size: 42px;
+    }
+    .fifthsection>p{
+        font-size: 21px;
+    }
+    .ninthdiv{
+        flex-direction: row-reverse;
+        padding: 5%;
+    }
+    .ninthdiv>img{
+        width: 45%;
+    }
+    .tenthdiv{
+        width: 47%;
+    }
+    .tenthdiv h5{
+        font-size: 27px;
+        text-align: center;
+    }
+    .tenthdiv div{
+        width: 78%;
+        margin: auto;
+    }
+    .tenthdiv div>button{
+        width: 46%;
+        padding: 3%;
+        font-size: 11px;
+    }
+    .tenthdiv div>button img{
+        width: 15%;
+    }
+    .sixthsection h5{
+        font-size: 28px;
+        text-align: center;
+    }
+    .sixthsection>div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sixthsection>div img{
+        width: 16%;
+        margin-right: 20px;
+    }
+    .ciologo{
+        height: 35px;
+    }
+    .sevethsection{
+        flex-wrap: wrap;
+    }
+    .eleventhdiv{
+        width: 20%;
+    }
+    .linkdiv{
+        font-size: 13px;
+    }
+    .contactdiv{
+        font-size: 13px;
+    }
+    .contactlogodiv{
+        width: 45%;
+    }
+    .contactlogodiv img{
+        margin-left: 17px;
+    }
+    .eightsection{
+        width: 62%;
+        font-size: 12px;
+    }
+}
+@media(max-width:746px){
+    .thirddiv>button{
+        width: 95%;
+    }
+    .thirddiv>button p{
+        font-size: 12.5px;
+    }
+}
+@media(max-width:702px){
+    .fourthdiv{
+        width: 96%;
+    }
+    .fourthdiv>button{
+        padding: 2% 6%;
+
+    }
+}
+@media(max-width:687px){
+    .thirddiv>button{
+        width: 100%;
+        padding: 2%;
+    }
+    .thirddiv>button p{
+        width: 95%;
+        font-size: 12px;
+    }
+    .griddiv>p{
+        font-size: 16.5px;
+        margin-bottom: 50%;
+    }
+}
+@media(max-width:680px){
+    .eightdiv{
+        padding: 5% 5% 50%;
+    }
+}
+@media(max-width:660px){
+    .eightdiv button{
+        width: 47%;
+    }
+    .eightdiv a{
+        font-size: 15px;
+    }
+}
+@media(max-width:638px){
+    header>img{
+        width: 7%;
+    }
+    .firstdiv img{
+        width: 45%;
+    }
+    .fourthdiv>button{
+        padding: 2% 4%;
+
+    }
+    .topleft{
+        left: -25%;
+    }
+    .middleleft{
+        left: -25%;
+    }
+    .bottomleft{
+        left: -25%;
+    }
+    .topright{
+        right: -22%;
+    }
+    .middleright{
+        right: -22%;
+        height: 48px;
+    }
+    .bottomright{
+        right: -22%;
+    }
+    .eightdiv button{
+        width: 55%;
+        font-size: 9px;
+    }
+    .eightdiv button a{
+        font-size: 9px;
+    }
+}
+@media(max-width:638px){
+    .eightdiv{
+        padding: 5% 5% 44%;
+        background-size: 45% 51%;
+    }
+        .eightdiv button{
+            width: 50%;
+        }
+        .eightdiv>button a{
+            font-size: 15px;
+        }
+}
+@media(max-width:638px){
+    .thirddiv>button{
+        width: 75%;
+        margin: auto;
+    }
+    .thirddiv>button p{
+        font-size: 15px;
+    }
+    .thirddiv{
+        width: 79%;
+    }
+    .thirddiv>p{
+       font-size: 20px;
+    }
+    h1{
+        font-size: 45px;
+        width: 100%;
+    }
+    .fourthdiv{
+        width: 70%;
+        margin: auto;
+    }
+    .fourthdiv button{
+        width: 47%;
+        padding: 3%;
+    }
+    .fourthdiv button p{
+       font-size: 15px;
+    }
+    .fifthdiv{
+        width: 75%;
+    }
+    .topleft{
+        left: -8%;
+        width: 180px;
+        height: 60px;
+    }
+    .middleleft{
+        left: -8%;
+        top: 41%;
+        width: 180px;
+        height: 60px;
+    }
+    .bottomleft{
+        left: -8%;
+        bottom: 10%;
+        width: 170px;
+        height: 60px;
+    }
+    .topright{
+        right: -8%;
+        height: 65px;
+        width: 210px;
+    }
+    .middleright{
+        top: 45%;
+        right: -8%;
+        height: 65px;
+        width: 190px;
+    }
+    .bottomright{
+        bottom: 0%;
+        right: -8%;
+        width: 190px;
+        height: 65px;
+    }
+    .secondsection{
+        width: 90%;
+        margin: auto;
+    }
+    .secondsection>img{
+        width: 20%;
+        margin-top: 28%;
+    }
+    .secondsection h3{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .secondsection p{
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+    .sixthdiv>button{
+        width: 60%;
+        font-size: 16px;
+        margin-bottom: 30%;
+    }
+    .thirdsection{
+        width: 100%;
+    }
+    .thirdsection h2, .fourthsection h2{
+        width: 100%;
+        font-size: 45px;
+    }
+    .thirdsection p, .seventhdiv p{
+        width: 90%;
+        font-size: 26px;
+    }
+    .gridsection{
+        margin: auto;
+        flex-direction: column;
+        width: 90%;
+    }
+    .griddiv{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 6%;
+        padding-left: 4%;
+    }
+    .griddiv>h3{
+        font-size: 37px;
+        width: 100%;
+        text-align: left;
+    }
+    .griddiv>p{
+        font-size: 23px;
+        margin-left: 0;
+        width: 70%;
+    }
+    .griddiv>button{
+        font-size: 18px;
+    }
+    .sixthgrid>p{
+        text-align: left;
+    }
+    .fourthsection{
+        padding: 3% 0;
+    }
+    .seventhdiv p{
+        font-size: 27px;
+    }
+    .eightdiv{
+        width: 85%;
+        background-position: 50% bottom;
+        background-size: 70% 50%;
+    }
+    .eightdiv button{
+        width: 51%;
+        margin-bottom: 8%;
+    }
+    .eightdiv button a{
+        font-size: 18px;
+    }
+    .eightdiv h4{
+        font-size: 36px;
+    }
+    .eightdiv p{
+        font-size: 22px;
+        width: 85%;
+    }
+    .fifthsection h2{
+        font-size: 51px;
+        width: 90%;
+    }
+    .fifthsection>p{
+        font-size: 25px;
+        width: 90%;
+    }
+    .fifthsection>img{
+        width: 85%;
+        margin-top: 30px;
+    }
+    .ninthdiv{
+        flex-direction: column-reverse;
+    }
+    .ninthdiv>img{
+        margin-top: 15%;
+        margin-bottom: 10%;
+        width: 90%;
+    }
+    .tenthdiv{
+        margin-top: 10%;
+        width: 90%;
+    }
+    .tenthdiv h5{
+        font-size: 33px;
+    }
+    .tenthdiv div{
+        width: 64%;
+    }
+    .tenthdiv div>button{
+        font-size: 13px;
+        width: 47%;
+    }
+    .sixthsection h5{
+        font-size: 34px;
+    }
+    .sixthsection>div{
+        width: 100%;
+    }
+    .sixthsection>div img{
+        width: 25%;
+    }
+    .sevethsection{
+        flex-wrap: wrap;
+    }
+    .eleventhdiv{
+        width: 42%;
+        margin-left: 0;
+        margin-right: 51%;
+        margin-bottom: 60px;
+    }
+    .eleventhdiv img{
+        width: 60%;
+        margin: 0;
+        margin-right: 20%;
+        margin-bottom: 30px;
+    }
+    #compliance{
+        margin: 0;
+    }
+    .linkdiv{
+        width: 30%;
+        margin-right: 15%;
+        margin-bottom: 5%;
+    }
+    .legaldiv{
+        margin-right: 50%;
+    }
+    .linkdiv a, .linkdiv p, .contactdiv p{
+        font-size: 16px;
+    }
+    .contactdiv{
+        width: 78%;
+        align-items: flex-start;
+        margin-bottom: 8%;
+    }
+    .contactlogodiv{
+        justify-content: flex-start;
+    }
+    .contactlogodiv img{
+        margin-left: 20px;
+    }
+    #facebookicon{
+        margin-left: 0;
+    }
+    .contactdiv p{
+        text-align: left;
+    }
+    .contactdiv a{
+        font-size: 15px;
+    }
+    .eightsection{
+        padding-top: 5%;
+        width: 95%;
+    }
+    .footermiddlepara{
+        margin: 40px 0 20px;
+    }
+    .footerlastpara{
+        color: #6486B9;
+        font-weight: 500;
+    }
+}
+@media(max-width:578px){
+    .tenthdiv div{
+        width: 72%;
+    }
+    .eightdiv button{
+        width: 58%;
+        margin-bottom: 10%;
+    }
+}
+@media(max-width:563px){
+    .thirddiv{
+        width: 85%;
+    }
+    .topleft{
+        width: 140px;
+        height: 50px;
+    }
+    .middleleft{
+        width: 140px;
+        height: 56px;
+    }
+    .bottomleft{
+        width: 140px;
+        height: 60px;
+    }
+    .topright{
+        height: 55px;
+        width: 150px;
+    }
+    .middleright{
+        height: 51px;
+        width: 190px;
+    }
+    .bottomright{
+        width: 140px;
+        height: 57px;
+    }
+}
+@media(max-width: 508px){
+    .eightdiv{
+        padding: 5% 5% 44%;
+        width: 85%;
+        background-position: 49% bottom;
+        background-size: 50% 50%;
+    }
+    .eightdiv button{
+        width: 58%;
+    }
+    .eightdiv button a{
+        font-size: 16px;
+    }
+    .eightdiv h4{
+        font-size: 28px;
+    }
+    .eightdiv p{
+        font-size: 18px;
+    }
+}
+@media(max-width:463px){
+    .thirddiv>button p{
+        font-size: 13px;
+    }
+    .thirddiv button{
+        width: 87%;
+    }
+    .fourthdiv{
+        width: 94%;
+    }
+    .fourthdiv button {
+       width: 45%;
+    }
+    .thirdsection h2, .fourthsection h2{
+        font-size: 32px;
+        width: 80%;
+    }
+    .thirdsection p, .seventhdiv p{
+        font-size: 18px;
+    }
+    .griddiv>h3{
+        font-size: 25px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .griddiv>p{
+        font-size: 17px;
+        margin: auto;
+        margin-bottom: 60%;
+    }
+    .eightdiv button{
+        width: 64%;
+    }
+    .eightdiv button a{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .fifthsection h2{
+        font-size: 36px;
+    }
+    .fifthsection>p{
+        font-size: 18px;
+    }
+    .griddiv>button{
+        font-size: 13px;
+    }
+}
+@media(max-width:463px){
+    .topleft{
+        left: -12%;
+        width: 140px;
+        height: 40px;
+    }
+    .middleleft{
+        left: -12%;
+        width: 140px;
+        height: 48px;
+    }
+    .bottomleft{
+        left: -12%;
+        width: 140px;
+        height: 48px;
+    }
+    .topright{
+        right: -12%;
+        height: 50px;
+        width: 140px;
+    }
+    .middleright{
+        right: -12%;
+        height: 40px;
+        width: 140px;
+    }
+    .bottomright{
+        right: -12%;
+        width: 140px;
+        height: 47px;
+    }
+    .eleventhdiv{
+        width: 49%;
+    }
+    .eleventhdiv img{
+        width: 70%;
+    }
+    #compliance{
+        width: 55%;
+    }
+}
+@media(max-width:414px){
+    .fourthdiv{
+        width: 96%;
+    }
+    .fourthdiv>button{
+        padding: 4%;
+        width: 46%;
+    }
+    .fourthdiv button p{
+        font-size: 13px;
+    }
+}
+@media(max-width:389px){
+    .eightdiv h4{
+        font-size: 24px;
+    }
+    .eightdiv p{
+        font-size: 15px;
+    }
+    .eightdiv button{
+        width: 63%;
+    }
+    .eightdiv button a{
+        font-size: 12px;
+    }
+}
+@media(max-width:375px){
+    .topleft{
+        width: 120px;
+        height: 36px;
+    }
+    .middleleft{
+        width: 120px;
+        height: 45px;
+    }
+    .bottomleft{
+        width: 120px;
+        height: 44px;
+    }
+    .topright{
+        height: 44px;
+        width: 120px;
+    }
+    .middleright{
+        height: 36px;
+        width: 120px;
+    }
+    .bottomright{
+        width: 120px;
+        height: 45px;
+    }
+    .sixthdiv>button{
+        width: 89%;
+    }
+}
+@media(max-width:333px){
+    header{
+        margin-top: 20px;
+    }
+    header>img{
+        width: 9%;
+    }
+    .firstdiv img{
+        width: 64%;
+    }
+    .fourthdiv{
+        flex-direction: column;
+        width: 92%;
+        align-items: center;
+        margin: auto;
+    }
+    .fourthdiv>button{
+        width: 60%;
+        padding: 4% 7%;
+        margin-bottom: 15px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .griddiv h3{
+        margin-bottom: 10px;
+    }
+    .griddiv p{
+        font-size: 13.8px;
+    }
+    .eightdiv h4{
+        font-size: 20px;
+    }
+    .tenthdiv div{
+        width: 73%;
+        flex-direction: column;
+    }
+    .tenthdiv div>button{
+        width: 75%;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+    .sixthsection>div{
+       flex-direction: column;
+    }
+    .sixthsection>div img{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .legaldiv{
+        margin-bottom: 35px;
+    }
+}
